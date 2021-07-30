@@ -18,7 +18,7 @@ sudo systemctl restart nginx.service
 sudo systemctl restart mysql.service
 
 # deploy app
-sudo cp nodejs/isuumo.nodejs.service /etc/systemd/system/
+# sudo cp nodejs/isuumo.nodejs.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl restart isuumo.nodejs.service
 
