@@ -7,14 +7,14 @@ cd nodejs
 npm install
 
 cd -
-# nginx
-sudo cp nginx/nginx.conf /etc/nginx
-sudo cp nginx/sites-available/*.conf /etc/nginx/sites-available
+# # nginx
+# sudo cp nginx/nginx.conf /etc/nginx
+# sudo cp nginx/sites-available/*.conf /etc/nginx/sites-available
 sudo systemctl restart nginx.service
 
-# mysql
-sudo cp mysql/conf.d/*.cnf /etc/mysql/conf.d
-sudo cp mysql/mysql.conf.d/*.cnf /etc/mysql/mysql.conf.d
+# # mysql
+# sudo cp mysql/conf.d/*.cnf /etc/mysql/conf.d
+# sudo cp mysql/mysql.conf.d/*.cnf /etc/mysql/mysql.conf.d
 sudo systemctl restart mysql.service
 
 # deploy app
