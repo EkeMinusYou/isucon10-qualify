@@ -8,8 +8,8 @@ npm install
 
 cd -
 # # nginx
-# sudo cp nginx/nginx.conf /etc/nginx
-# sudo cp nginx/sites-available/*.conf /etc/nginx/sites-available
+sudo cp nginx/nginx.conf /etc/nginx
+sudo cp nginx/sites-available/*.conf /etc/nginx/sites-available
 sudo systemctl restart nginx.service
 
 # # mysql
